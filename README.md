@@ -25,6 +25,8 @@ https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/multiclass.html
 # 실행 방법
 conda에서 위와 같은 구현 환경 세팅<br>
 필수 라이브러리 설치<br>
+예시 : pip install torch torchvision numpy tqdm scikit-learn<br>
+실행 코드 실행 <br>
 데이터셋 준비 (데이터 셋을 설치 후 경로 설정)<br>
 실행 코드 실행 <br>
 
