@@ -1,7 +1,7 @@
 # IoT_Project
 
 # 논문 원본 깃허브 링크
-https://github.com/litian96/ditto
+https://github.com/litian96/ditto<br>
 이 문서에서의 재구현 방식은 Ditto: Fair and Robust Federated Learning Through Personalization 논문에 기재된 https://github.com/litian96/ditto를 기반으로한 재구현입니다.
 
 # 실행 코드
