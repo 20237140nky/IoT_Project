@@ -50,6 +50,9 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.abspath(file)))
 
+## vehicle 전처리 코드 사용
+get_real_vehicle.py 파일 첨부
+
 ## ditto-master/data/vehicle/create_dataseet.py 코드 추가 및 매서드 부분 수정
 <pre>
 import os
