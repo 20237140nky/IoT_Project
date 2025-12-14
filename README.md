@@ -1,7 +1,8 @@
 # IoT_Project
 
 # 논문 원본 깃허브 링크
-https://github.com/litian96/ditto?tab=readme-ov-file
+https://github.com/litian96/ditto
+이 문서에서의 재구현 방식은 Ditto: Fair and Robust Federated Learning Through Personalization 논문에 기재된 https://github.com/litian96/ditto를 기반으로한 재구현입니다.
 
 # 실행 코드
 python main.py --dataset vehicle --model svm --optimizer ditto --learning_rate 0.1 --num_rounds 2000 --eval_every 1 --clients_per_round 5 --batch_size 32 --q 0 --seed 0 --sampling 2 --num_corrupted 11 --lam 1 --local_iters 2 > result_vehicle_attack_ditto_2000.txt
@@ -28,6 +29,7 @@ conda에서 위와 같은 구현 환경 세팅<br>
 예시 : pip install torch torchvision numpy tqdm scikit-learn<br>
 실행 코드 실행 <br>
 데이터셋 준비 (데이터 셋을 설치 후 경로 설정)<br>
+예시 : ditto/data/(데이터셋 이름)
 실행 코드 실행 <br>
 
 # 재구현 과정
